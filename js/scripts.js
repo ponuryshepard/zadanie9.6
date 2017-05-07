@@ -1,7 +1,7 @@
 var list = document.getElementById('list');
 var add = document.getElementById('addElem');
 
-addEventListener('click', function() {
+add.addEventListener('click', function() {
 	list.innerHTML += '<li>item ' + x.length + '</li>';
 });
 
